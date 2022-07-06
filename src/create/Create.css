@@ -1,0 +1,13 @@
+/* form{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    text-align: center;
+    width: 900px;
+    margin-left: 200px;
+} */
+
+.btngroup{
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,41 @@
+
+
+.toprowinfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.toprowinfo > p{
+    color: grey;
+}
+
+.leftchild1{
+    /* margin-left: 100px; */
+    /* margin-top: 50px; */
+    width: 800px;
+}
+
+.everythingelse > img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.child1{
+    width: 300px;
+    /* margin-top: 30px; */
+}
+
+.child1  img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.flexparent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.articlecontainer{
+    margin: 50px;
+}

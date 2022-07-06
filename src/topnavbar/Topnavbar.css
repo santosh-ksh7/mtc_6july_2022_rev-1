@@ -1,0 +1,37 @@
+.topbarlogo{
+    width: 60px;
+    height:60px;
+}
+
+.topbarlogodes{
+    display: flex;
+    align-items: center;
+}
+
+
+.topbarsearch{
+    display: flex;
+    align-items: center;
+}
+
+
+.topbarlinks{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+    background-color: grey;
+}
+
+Link{
+    text-decoration: none;
+    color: white;
+}

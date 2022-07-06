@@ -1,0 +1,210 @@
+/* mainouterhomeflex  */
+
+.mainouterhomeflex{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Normal componentn */
+
+.authorimage{
+    border-radius: 50%;
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+}
+
+.date{
+    color: grey;
+    font-size: 15px;
+}
+
+.authorname{
+    font-size: 15px;
+}
+
+.topcol{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.botcol{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.botcol > p{
+    color: grey;
+}
+
+.midcol{
+    width: 500px;
+}
+
+.midcol > h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.midcol > p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.normalcomponent{
+    width: 650px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.contentimage{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.parenttonormal{
+    width: 650px;
+}
+
+.normalblogs, .trending{
+    margin: 70px;
+}
+
+
+
+/* trending component */
+
+.trendingcomponent{
+    width: 350px;
+    height: min-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.othercontent{
+    width: 300px;
+    background-color: white;
+    position: relative;
+    top: -55px;
+    left: 20px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.trendingmidcol > h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.trendingmidcol > p{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.mainpic{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.trendingtopcol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingtopcol > p{
+    color: grey;
+}
+
+.trendingbotcol{
+    display: flex;
+    justify-content: space-between;
+}
+
+.trendingbotcol > p{
+    color: grey;
+}
+
+.trendingparentcontainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* rightchilds */
+
+.rightchilds{
+    margin-top: 70px;
+    margin-right: 70px;
+    border-left: 1px dotted grey;
+    padding: 10px;
+}
+
+.child1{
+    width: 300px;
+    margin-bottom: 40px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.child1 > h3,p{
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+.tagcontainer{
+    margin-top: 10px;
+}
+
+.child2{
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.child2 > h3{
+    margin-top: 5px;
+    margin-bottom: 9px;
+}
+
+.recentcontainer > p,h4{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.child3{
+    width: 300px;
+    margin-bottom: 20px;
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+.child3 > h3,p{
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.tagcontainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+}
+
+.tagcontainer > button{
+    border-radius: 10px;
+    background-color: grey;
+    padding: 5px;
+    color: white;
+    border: none;
+}
